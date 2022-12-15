@@ -1,0 +1,23 @@
+header{
+    background:#A9DFBF;
+     nav{
+        ul{
+            list-style: none;
+            overflow: hidden;
+        }
+        li{
+            float: left;
+
+        }
+        a{
+            text-decoration: none;
+            display: inline-block;
+            color: #fff;
+            padding: 15px 20px;
+            &:hover{
+                background:#E5E7E9 ;
+                color: #A9DFBF;
+            }
+        }
+     }
+}

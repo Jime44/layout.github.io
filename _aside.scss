@@ -1,0 +1,32 @@
+aside{
+    width: 30%;
+    float: left;
+    background:#66CDAA ;
+    color: #fff;
+    padding: 20px;
+     .widget{
+        margin-bottom: 20px;
+         .titulo{
+            color: #A9DFBF;
+            border-bottom: 1px solid #A9DFBF;
+            margin-bottom: 10px;
+         }
+        ul{
+            list-style: none;
+            li{
+                border-bottom: 1px solid rgba(#fff,.2);
+                padding: 10px 0;
+                a{
+                    color:#fff ;
+                    text-decoration: none;
+                    &:hover{
+                        color: $colormora;
+                    }
+                }
+            }
+        }
+        p{
+            line-height: 27px;
+        }
+     }
+}
